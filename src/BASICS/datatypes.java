@@ -5,6 +5,9 @@ public class datatypes
     public static void main(String[] args)
     {
         byte num1 = 127;
+
+        long newNum = num1;
+        System.out.println(newNum);
         System.out.println(num1);
         //num1 = 500; not possible cause out of range
 
